@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Okami, l'Akita Inu</title>
+  <!--J'ai tout dabord décidé d'utiliser de la métadonnée standard-->
+  <meta charset="UTF-8">
+  <meta name="description" content="This page is the result of my HTML & CSS class with the university Paris8, 
+  the content is dedicated to my Akita Inu dog, Okami, and Akitas in general.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="akita, Okami, paris 8, html, css, akita inu, japan, dog, hachi, hachiko, ">
+  <link rel="canonical" href="https://class-htmlcss.gamer.free/?i=1" />
+
+  <!--En plus de cela, j'ai fait le choix d'inclure Open Graph Data en plus de mes métadonnées standard-->
+  <meta property="og:url" content="https://class-htmlcss.gamer.free/?i=1" />
+  <meta property="og:title" content="Découvrez Okami, l'Akita Inu" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="This page is the result of my HTML & CSS class with the university Paris8, 
+  the content is dedicated to my Akita Inu dog, Okami, and Akitas in general" />
+  <meta property="og:site_name" content="Okami, l'Akita Inu" />
+  <meta property="og:local" content="fr_FR" />
+  <meta property="og:image" content="https://class-htmlcss.gamer.free/images/okami_pp.png" />
+
+  <!--Et enfin les métadonnées au format LD-JSON, comme demandé dans le cours-->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Découvrez Okami, l'Akita Inu",
+    "description": "This page is the result of my HTML & CSS class with the university Paris8, 
+    the content is dedicated to my Akita Inu dog, Okami, and Akitas in general",
+    "inLanguage": "fr"
+    "url" : "https://class-htmlcss.gamer.free/?i=1"
+  }
+  </script>
+</head>
+<body>
+  <!--J'ai décidé de dédier mon projet à mon chien Okami, duquel je m'emploie à faire la présentation ici-->
+  <h1>Okami, l'Akita Inu</h1>
+  <!--Je décide de délimiter une idée principale = un paragraphe, j'en profite pour inclure mon premier lien ici-->
+  <p>Bonjour, je m'appelle Okami, je suis un chien de race <a href="https://fr.wikipedia.org/wiki/Akita_(chien)">Akita Inu</a>.</p>
+  <!--J'inclus ma première image, je décide de mettre une balise alt pour les lecteurs de navigateur-->
+  <img src="images/okami_pp.png" alt="Le véritable Okami">
+  <p>La race des Akita est originaire de la région japonaise du même nom. 
+    C'est une région nordique avec beaucoup de neige, nous sommes donc équippés pour supporter le froid.</p>
+  <p>Je suis né non loin du Mans, en Sarthe, mais j'ai vite déménagé dans le sud de la France, à Marseille, quand j'ai été adopté.</p>
+  <p>J'ai un frère et une soeur, mais je ne suis plus en contact avec eux, j'espère qu'ils mènent une belle vie !</p>
+  <!--Lors du cours, je découvre l'attribut figure qui me permet d'inclure une légende à mon image, je souhaite donc en faire l'essai ici. -->
+  <figure>  
+    <!--Je n'oublie pas l'attribut alt pour les lecteurs d'écrans-->
+    <img src="images/okami_bb.png" alt="3 Akita Inu chiots">
+    <figcaption>Fig.1 - Je suis le plus grand des trois, sur la droite</figcaption>
+  </figure>  
+  <p>Voici quelques informations à mon propos :</p>
+  <!--Je m'essai à la création d'un tableau simple-->
+  <table>
+    <tr>
+      <th>Anniversaire</th>
+      <th>Poids</th>
+      <th>Robe</th>
+    </tr>
+    <tr>
+      <td>01/10/2024</td>
+      <td>33 kg</td>
+      <td>Sable</td>
+    </tr>
+  </table>
+  <!--Je mets dans ce paragraphe le deuxième lien. Je souhaite cette fois inclure l'option target="_blank" 
+  pour lui demander d'ouvrire le lien dans une nouvelle fenêtre ou onglet-->
+  <p>La race des Akita a largement été démocratisée aux yeux du public grâce à l'histoire de 
+    <a href="https://fr.wikipedia.org/wiki/Hachik%C5%8D" target="_blank">Hachikou</a>, 
+    l'Akita qui a loyament attendu son maitre pendant des années à la gare de Shibuya. 
+    Son maître est malheureusement décédé au travail, mais Hachi a attendu son retour à la gare jusqu'à son dernier souffle.</p>
+  <figure>  
+    <img src="images/hachiko.jpg" alt="Satue d'Hachiko à la station de Shibuya">
+    <figcaption>Fig.2 - La statue de Hachiko présente à la station de Shibuya</figcaption>
+  </figure>  
+  <p>Un film a même été réalisé sur cette histoire, il s'appelle <a href="https://fr.wikipedia.org/wiki/Hatchi" target="_blank">Hachi</a>, 
+    Richard Gere joue dedans, mais attention avant de le regarder, il est assez triste.</p>
+  <p>Il ne sera pas surprenant d'apprendre que nous sommes connus pour notre loyauté. 
+    Nous sommes également généralement perçus comme intelligens, mais très tétus. 
+    Nous faisons ce que nous voulons faire avant de faire ce que notre maitre nous demande.</p>
+  <p>Voici une liste, non exaustive, de ce que j'aime :</p>
+  <!--Ici, j'experimente avec les listes, je fais volontairement la liste principale et des sous-listes pour jouer avec les effets des puces-->
+  <ul>
+    <li>Manger
+      <ul>
+        <li>Les nerfs de boeuf</li>
+        <li>Le canard séché</li>
+        <li>Les yaourts</li>
+        <li>La pizza</li>
+      </ul>
+    </li>
+    <li>Me reposer
+      <ul>
+        <li>Faire des pauses pour contempler mon envrionnement pendant la balade</li>
+        <li>Dormir</li>
+      </ul>
+    </li>
+    <li>Jouer
+      <ul>
+        <li>Jouer avec mon copain Teto</li>
+        <li>Jouer à la bagarre avec mes maîtres</li>
+      </ul>
+    </li>  
+  </ul>
+  <p>Voici une petite vidéo de présentation pour voir mon quotidier :</p>
+  <!--Enfin, j'inclus l'élément vidéo demandé, je décide d'ajouter l'attribut "controls" 
+  afin de permettre aux utilisateurs de naviguer confortablement dans la vidéo.-->
+  <video width="400" controls>
+    <source src="TBD" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</body>
+</html>
